@@ -16,7 +16,7 @@ spec:
       - name: petshop
         image: sevenajay/petshop:latest
         ports:
-        - containerPort: 8080
+        - containerPort: 9098
         imagePullPolicy: Always
 ---
 apiVersion: v1
